@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="youtub_LJ._Default" Async="true" %>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>--YouTube Canales y Comentarios--</h2>
-
+    <h2>--Busca el canal de tu interés--</h2>
+    <link rel="stylesheet" type="text/css" href="Css\StyleSheet.css">
+    
     <!-- Búsqueda de canales -->
     <div>
         <label for="terminoBusqueda">Buscar canales:</label>

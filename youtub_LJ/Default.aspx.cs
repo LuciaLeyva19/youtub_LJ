@@ -51,7 +51,7 @@ namespace youtub_LJ
             {
                 resultados.Add(new
                 {
-                    Titulo = item.Snippet.Title, 
+                    Titulo = item.Snippet.Title,
                     IdCanal = item.Snippet.ChannelId,
                     UrlMiniatura = item.Snippet.Thumbnails.Default__.Url // URL de la miniatura
                 });
@@ -138,4 +138,4 @@ namespace youtub_LJ
             gvComentarios.DataBind();
         }
     }
-}
+
